@@ -8,10 +8,55 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <ul style="float:right;list-style-type:none;">
+    <li><a href="#about">About</a></li>
+    <li><a href="#login">Login</a></li>
+  </ul>
+</ul>
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Hi I'm Nathan Riojas djd</h1>
+      <h1 class="project-name">Hi I'm Nathan Riojas</h1>
       <h2 class="project-tagline">Mechanical Engineer | Interested in Robotics | Software Enthusiast </h2>
       <a href="https://www.linkedin.com/in/nathan-riojas-04b15254" style="color: rgb(155, 89, 182);"><i class="fa fa-linkedin"></i></a>
       <button type="button">LinkedIn!</button> 
