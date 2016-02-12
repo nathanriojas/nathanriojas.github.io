@@ -106,11 +106,11 @@
 }
 
 .pl-mdr /* meta.diff.range */ {
-  color: #795da3;
+  color: #cc5500;
   font-weight: bold;
 }
 
 .pl-mo /* meta.output */ {
-  color: #1d3e81;
+  color: #cc5500;
 }
 
