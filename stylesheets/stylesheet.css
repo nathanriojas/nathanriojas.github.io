@@ -23,9 +23,9 @@ a {
 }
 @media screen and (max-width 42em){
 a {
-  font-size: .7em }
+  font-size: .4em }
   a:hover {
-    font-size: .8em }
+    font-size: .5em }
 }
 
 .btn {
