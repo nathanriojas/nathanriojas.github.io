@@ -8,14 +8,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
-/*
+
 a {
-  color: #1e6bb8;
-  text-align: center;
+  color: #000000;
+  text-align: right;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
-
+/*
 @media and (min-width 42em){
 a {
   font-size: .1em  }
