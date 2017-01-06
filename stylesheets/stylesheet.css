@@ -15,6 +15,18 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+@media screen and (min-width 42em){
+a {
+  font-size: .9em  }
+  a:hover {
+   font-size: 1em  }
+}
+@media screen and (max-width 42em){
+a {
+  font-size: .7em }
+  a:hover {
+    font-size: .8em }
+}
 
 .btn {
   display: inline-block;
