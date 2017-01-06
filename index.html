@@ -32,10 +32,22 @@ li {
 
 }
  
-li>a {  
+li>a and (min-wdith 42em) {  
     text-align:center;
     display: block;
-    font-size:.875rem;
+    font-size:1rem;
+    color: white;
+    padding: 1.5em 1.2em 1.5em 1.2em; 
+    text-decoration:none;
+    margin:0;
+    border-radius: 1em;
+
+  
+} 
+li>a and (max-width 42em) {  
+    text-align:center;
+    display: block;
+    font-size:.6rem;
     color: white;
     padding: 1.5em 1.2em 1.5em 1.2em; 
     text-decoration:none;
