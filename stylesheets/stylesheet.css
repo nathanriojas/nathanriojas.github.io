@@ -10,21 +10,28 @@ body {
   color: #606c71; }
 
 a {
-  text-align:center;
-  display: block;
-  color: white;
-  padding: 1.3rem 1.2rem 1.3rem 1.2rem; 
-  font-size: .9em;
-  text-decoration:none;
-  margin:0;
-  border-radius: 1rem; }
+  color: #000000;
+  text-align: right;
+  text-decoration: none; }
   a:hover {
+    text-decoration: underline; }
+li a{
+    text-align:center;
+    display: block;
+    color: white;
+    padding: 1.3rem 1.2rem 1.3rem 1.2rem; 
+    text-decoration:none;
+    margin:0;
+    border-radius: 1rem;
+}
+li a:hover{
     background-color: #008080;
     moz-box-shadow: 4px 4px 10px 3px #336699;
     -webkit-box-shadow: 4px 4px 10px 3px #336699;
     box-shadow: 4px 4px 10px 3px #336699;
     text-decoration: none;
-    border-radius: 1em; }
+    border-radius: 1em;
+}
 /*
 @media and (min-width 42em){
 a {
