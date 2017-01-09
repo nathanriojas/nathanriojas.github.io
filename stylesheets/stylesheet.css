@@ -15,7 +15,7 @@ ul {
     padding: 0;
     overflow: hidden;
     text-align: center;
-    background-color: #111;
+    background-color: rgba(20, 21, 21, 0.94);
  
   }
 
@@ -44,7 +44,7 @@ li a{
     border-radius: 1rem;
 }
 li a:hover{
-    background-color: #008080;
+    background-color: rgb(5, 74, 140);
     moz-box-shadow: 4px 4px 10px 3px #336699;
     -webkit-box-shadow: 4px 4px 10px 3px #336699;
     box-shadow: 4px 4px 10px 3px #336699;
@@ -167,7 +167,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #023466; }
+  color: rgb(0, 71, 141); }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
