@@ -28,7 +28,7 @@ li {
 
 }
 a {
-  color: #0099CC;
+  color: rgb(52, 176, 170);
   text-align: right;
   text-decoration: none; }
   a:hover {
@@ -167,7 +167,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: rgba(25, 26, 26, 0.88); }
+  color: rgb(72, 131, 115); }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
