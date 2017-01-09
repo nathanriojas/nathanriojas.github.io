@@ -45,9 +45,9 @@ li a{
 }
 li a:hover{
     background-color: #0a85b4;
-    moz-box-shadow: 4px 4px 10px 3px #336699;
-    -webkit-box-shadow: 4px 4px 10px 3px #336699;
-    box-shadow: 4px 4px 10px 3px #336699;
+    moz-box-shadow: 15px 10px 6px 1px #053652;
+    -webkit-box-shadow: 15px 10px 6px 1px #053652;
+    box-shadow: 15px 10px 6px 1px #053652;
     padding: 1.1rem 1.2rem 1.1rem .2rem; 
     text-decoration: none;
     border-radius: 1em;
@@ -112,7 +112,7 @@ a {
   background-image: url("http://eskipaper.com/images/electrical-engineering-wallpaper-8.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: left;  }
+  background-position: ;  }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -145,7 +145,7 @@ a {
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
-  opacity: 0.7; }
+  opacity: 0.9; }
 
 @media screen and (min-width: 64em) {
   .project-tagline {
