@@ -93,10 +93,10 @@ li a:hover{
 }
 @media screen and (max-width: 42em){
   #topLink{
-    font-size:.8rem;
+    font-size:.6rem;
   }
   #topLink:hover{
-    font-size:.8rem; 
+    font-size:.6rem; 
   }
   
 }
