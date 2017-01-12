@@ -194,17 +194,17 @@ li a#last:hover{
 @media screen and (min-width: 64em) {
   .page-header {
     padding: 5rem 6rem; 
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: header; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
+    animation-name: header;
     animation-duration: 4s;} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
     padding: 3rem 4rem;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: header; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
+    animation-name: header;
     animation-duration: 4s;} }
 
 @media screen and (max-width: 42em) {
