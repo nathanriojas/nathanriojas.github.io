@@ -21,7 +21,6 @@ ul {
 
 li {
     display: inline-block;
-    width: 24%;
     margin: 0;
     padding:0;
     border-radius: 1em;
@@ -81,25 +80,50 @@ li a:hover{
   background-image: -o-linear-gradient(top,rgba(238, 255, 247, 0.73), rgb(16, 162, 244));
   background-image: linear-gradient(to bottom, rgba(238, 255, 247, 0.73), rgb(16, 162, 244));}
 
-@media screen and (min-width: 42em){
-  #topLink{
+@media screen and (min-width: 64em) {
+  li {
+    width: 24.7%; }
+  li a:hover{
+   padding: 1.1rem 1.2rem 1.1rem .2rem; 
+   } 
+   #topLink{
     font-size:1.0rem;
   }
   #topLink:hover{
     font-size:1.0rem;
     
-  }
-  
-}
-@media screen and (max-width: 42em){
-  #topLink{
-    font-size:.8rem;
+  }}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  li {
+    width: 24.5%; }
+    li a:hover{
+   padding: 1.1rem 1.2rem 1.1rem .2rem; 
+   } 
+   #topLink{
+    font-size:1rem;
   }
   #topLink:hover{
-    font-size:.8rem; 
+    font-size:1rem;
+    
+  }}
+
+@media screen and (max-width: 42em) {
+  li {
+    width: 24%;} 
+   li a:hover{
+   padding: 1.1rem 1.2rem 1.1rem .7rem; 
+   }
+   #topLink{
+    margin: 7.5% 38% 5% 38%;
+    font-size:.85rem;
+    
   }
-  
-}
+  #topLink:hover{
+    margin: 7.5% 38% 5% 38%;
+    font-size:.85rem;
+    
+  }}
 /*
 @media and (min-width 42em){
 a {
