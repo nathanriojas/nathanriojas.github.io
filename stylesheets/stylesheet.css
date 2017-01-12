@@ -81,7 +81,7 @@ li a:hover{
   background-image: -o-linear-gradient(top,rgba(238, 255, 247, 0.73), rgb(16, 162, 244));
   background-image: linear-gradient(to bottom, rgba(238, 255, 247, 0.73), rgb(16, 162, 244));}
 
-@media screen and (min-width 42em){
+@media screen and (min-width: 42em){
   #topLink{
     font-size:1.0rem;
   }
@@ -91,12 +91,12 @@ li a:hover{
   }
   
 }
-@media screen and (max-width 42em){
+@media screen and (max-width: 42em){
   #topLink{
-    font-size:.6rem;
+    font-size:.8rem;
   }
   #topLink:hover{
-    font-size:.6rem; 
+    font-size:.8rem; 
   }
   
 }
