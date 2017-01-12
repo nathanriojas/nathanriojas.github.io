@@ -177,31 +177,35 @@ li a#last:hover{
   background-image: url("http://eskipaper.com/images/electrical-engineering-wallpaper-8.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: ; 
-  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
-  animation-iteration-count: infinite;}
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
+  background-position: ; }
+
+@-webkit-keyframes header {
+    from {color: rgba(248, 248, 248, 0);}
+    to {color: #ffffff;}
 }
 
 /* Standard syntax */
-@keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
+@keyframes header {
+    from {color: rgba(248, 248, 248, 0);}
+    to {color: #ffffff;}
 }
+
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 5rem 6rem; 
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 3rem 4rem;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;} }
 
 @media screen and (max-width: 42em) {
   .page-header {
