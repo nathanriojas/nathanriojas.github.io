@@ -11,38 +11,55 @@
 <style>
 head,body{height:100%;width:100%}
 body{background-color: beige}
-.jumbotron{background-image: linear-gradient(to left, #99b0cf, #7ea6c3, #629bb4, #4791a2, #2d868e); box-shadow: -15px 10px 6px 1px #053652}
+.jumbotron{background-image: linear-gradient(to left, #99b0cf, #7ea6c3, #629bb4, #4791a2, #2d868e);  margin-bottom: 0%}
 .jumbotron#Top{width:100%; margin-bottom: 0%}
 #About,#Contact{background-color: beige;}
 #Education{ background-image: linear-gradient(to left, #99b0cf, #7ea6c3, #629bb4, #4791a2, #2d868e); }
 .navbar {
+    margin-top:0%;
+    padding:0%;
+    width:100%;
+    border-top-style: solid;
     border-color: black;
     background-color: beige;
-  border-radius: 0;
+
   transition: all .5s ease-out;
 }
+.navbar-nav{width:100%; margin-left:27%;padding:0%;}
 
 .affix {
+margin-top:0%;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030;
-  border-color: black;
-  border-style: solid;
   background-color: black;
  /* background-image: linear-gradient(to right top, #064ba4, #0078b9, #4ca0c2, #97c5cd, #e0e7e6);*/
 }
 
 /* fixed to top styles */
 .affix.navbar {
+    margin-top:0%;
   background-color: black;
 }
 .affix.navbar .nav-item>a, 
 .affix.navbar .navbar-brand {
     color: #fff;
+    margin-top:0%;
 
 }
+.nav-item{margin-top:0%; padding:0%;width:10%;}
+.nav-item:hover{
+    margin-top:0%;
+    width:10%;
+    height:100%; background: rgba(182, 207, 223, 0);
+    border-radius: .5rem;
+  background-image: -webkit-linear-gradient(top,rgba(238, 255, 247, 0.73), rgb(16, 162, 244));
+  background-image: -moz-linear-gradient(top,rgba(238, 255, 247, 0.73), rgb(16, 162, 244));
+  background-image: -ms-linear-gradient(top,rgba(238, 255, 247, 0.73), rgb(16, 162, 244));
+  background-image: -o-linear-gradient(top,rgba(238, 255, 247, 0.73), rgb(16, 162, 244));
+  background-image: linear-gradient(to bottom, rgba(238, 255, 247, 0.73), rgb(16, 162, 244));}}
 
 
 </style>
@@ -51,26 +68,26 @@ body{background-color: beige}
 <div class="jumbotron jumbotron-fluid" id="Top">
   <div class="container" id="Heading">
     <h1 class="text-white text-left">Hi I'm Nathan Riojas</h1>      
-    <p class="text-white">Mechanical Engineer | <span class="lead">Aspiring Software Engineer</span></p>
+    <p class="text-white text-right">Mechanical Engineer | <span class="lead">Aspiring Software Engineer</span></p>
   </div>
    
   </div>
-<nav class="navbar navbar-expand-sm" data-toggle="affix">
+<nav class="navbar navbar-expand-sm justify-content-center" data-toggle="affix">
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">About Me</a>
+      <a class="nav-link text-center" href="#">About Me</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Education</a>
+      <a class="nav-link text-center" href="#">Education</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Contact</a>
+      <a class="nav-link text-center" href="#">Contact</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Need a Website?</a>
+      <a class="nav-link text-center" href="#">Need a Website?</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Resume</a>
+      <a class="nav-link text-center" href="#">Resume</a>
     </li>
     
   </ul>
