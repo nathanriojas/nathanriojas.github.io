@@ -1,1 +1,0 @@
-window.parent.googletag.impl.pubads.setCookieInfo({"_cookies_":[{"_value_":"ID=1deb5fb154aaa633:T=1517733415:S=ALNI_Ma3r-bLkOop5cpq_WSmlkCQ_msDPA","_expires_":1580805415,"_path_":"/","_domain_":"htmlcolorcodes.com"}]});
