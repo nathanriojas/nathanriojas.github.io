@@ -8,32 +8,49 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html {
+  height: 100%;
+}
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
   color: #fff;
   position: relative;
-  background: transparent;
+  background: black;
+  background-size: 100%;
+  height: 100%;
+  opacity: 100%;
 }
 
-body::before {
+body::after {
   content: "";
   position: fixed;
   /*background: #040404 url("../img/bg.jpg") top right no-repeat; */
-  background: #040404 url("../img/bg-8.png") top right no-repeat;
-  background-size: 100%;
-  left: 0;
+  /* background-color: #040404 url("../img/Irealnd_test.jpg") top right no-repeat; */
+  background-image: url("../img/me_ireland.jpg");
+  overflow-y:auto;
+  max-height: 100%;
+  max-width: 100%;
+  /* height:100%;
+  width: 100%; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+  inset:0px;
+  opacity: 75%;
+  /* left: 0;
   right: 0;
-  top: 0;
-  height: 100vh;
+  top: 0; */
+  background-color: #040404;
   z-index: -1;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
   }
-}
+} */
+/* 18d26e */
 
 a {
   color: #18d26e;
